@@ -4,9 +4,9 @@ require_once 'Vehicle.php';
 
 class Car extends Vehicle
 {
-    private string $energy;
+    protected string $energy;
 
-    private int $energyLevel;
+    protected int $energyLevel;
 
     public const ALLOWED_ENERGIES = [
         'fuel',
